@@ -1,0 +1,16 @@
+[package]
+name = "buffers"
+version = "0.1.0"
+authors = ["Nathan Graule <solarliner@gmail.com>"]
+categories = ["filesystem", "memory-management"]
+license = "MIT"
+license-file = "LICENSE"
+description = "Unified type over stdio, memory and file buffers."
+repository = "https://github.com/solarliner/buffers"
+keywords = ["input", "output", "io", "buffer"]
+readme = "README.md"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
