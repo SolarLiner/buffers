@@ -172,7 +172,7 @@ impl InputOutput {
     ///  therefore the file is required to exist, and be readable *and* writable for the operation
     /// to succeed.
     pub fn from_arg(arg: Option<&str>) -> io::Result<InputOutput> {
-        match path {
+        match arg {
             None | Some("-") => Ok(Self::stdio()),
             Some(path) => Self::file(path),
         }
