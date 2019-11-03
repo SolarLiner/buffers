@@ -1,5 +1,5 @@
 [package]
-name = "buffers"
+name = "wbuf"
 version = "0.1.0"
 authors = ["Nathan Graule <solarliner@gmail.com>"]
 categories = ["filesystem", "memory-management"]

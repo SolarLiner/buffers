@@ -1,4 +1,4 @@
-//! The `buffers` crate unifies standard IO, memory and file buffers into a unified type, allowing
+//! The `wbuf` crate unifies standard IO, memory and file buffers into a unified type, allowing
 //! to effectively leave the type of buffer used to the user.
 //!
 //! # How to use
@@ -15,7 +15,7 @@
 //!
 //! ```rust
 //! use clap::{App, Arg};
-//! use buffers::{Input, Output};
+//! use wbuf::{Input, Output};
 //! let matches = App::new("app")
 //!     .arg(Arg::with_name("input").index(1))
 //!     .arg(Arg::with_name("output").index(2))
