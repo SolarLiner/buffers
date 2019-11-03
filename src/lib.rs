@@ -47,7 +47,7 @@ pub enum Output {
 pub enum InputOutput {
     Standard(io::Stdin, io::Stdout),
     Memory(io::Cursor<Vec<u8>>),
-    File(io::File),
+    File(fs::File),
 }
 
 impl Input {
