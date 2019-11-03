@@ -109,6 +109,7 @@ impl Output {
     pub fn file(path: &str) -> io::Result<Self> {
         fs::OpenOptions::new()
             .write(true)
+            .create(true)
             .open(path)
             .map(Output::File)
     }
