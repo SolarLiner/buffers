@@ -1,6 +1,6 @@
 [package]
 name = "wbuf"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Nathan Graule <solarliner@gmail.com>"]
 categories = ["filesystem", "memory-management"]
 license = "MIT"
